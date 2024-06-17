@@ -54,4 +54,7 @@ async def start_handler2(message: Message,state:FSMContext):
 @router.message()
 async def message_handler(msg: Message):
     await send_message_to_user(msg.from_user.id, msg.text)
+
+
+#yyyy
     
